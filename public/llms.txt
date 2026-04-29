@@ -1,0 +1,37 @@
+# Island Cuisine Charlotte
+
+## About
+Island Cuisine is an authentic Caribbean restaurant located in Charlotte, NC. We specialize in bringing the vibrant flavors of Jamaica and the Caribbean to the Queen City. Our dishes are prepared with traditional spices and cooking methods, offering a true taste of the islands.
+
+## Location & Contact
+- **Address**: 2025 E Arbors Dr #210, Charlotte, NC 28262
+- **Phone**: +1 (980) 237-2677
+- **Website**: https://islandcuisineclt.com
+- **Email**: info@islandcuisineclt.com (implied)
+
+## Hours of Operation
+- **Tue - Thu**: 11:00 AM - 9:00 PM
+- **Fri - Sat**: 11:00 AM - 10:00 PM
+- **Sun**: 12:00 PM - 8:00 PM
+- **Mon**: Closed
+
+## Key Menu Items
+- **Oxtail**: Tender, slow-cooked oxtail in a rich, savory gravy.
+- **Jerk Chicken**: Authentic spicy and smoky jerk chicken, grilled to perfection.
+- **Curry Goat**: Succulent goat meat simmered in a bold curry sauce.
+- **Rice & Peas**: Traditional accompaniment made with coconut milk and kidney beans.
+- **Curry Chicken**: Tender chicken chunks in a flavorful curry sauce.
+- **Fried Plantains**: Sweet, ripe plantains fried golden brown.
+
+## Atmosphere
+We offer a warm, welcoming environment perfect for family dinners, quick lunches, or takeout. The interior reflects the warmth of the Caribbean culture.
+
+## Services
+- Dine-in
+- Takeout
+- Delivery (via third-party apps like Grubhub, DoorDash, UberEats)
+- Catering
+
+## Accessibility
+- Wheelchair accessible entrance.
+- Parking available in the shopping center.

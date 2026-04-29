@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 26 58 58;
+
+    --card: 255 255 255;
+    --card-foreground: 26 58 58;
+
+    --popover: 255 255 255;
+    --popover-foreground: 26 58 58;
+
+    --primary: 232 122 93;
+    --primary-foreground: 255 255 255;
+
+    --secondary: 255 248 240;
+    --secondary-foreground: 26 58 58;
+
+    --muted: 245 237 220;
+    --muted-foreground: 120 120 120;
+
+    --accent: 255 209 102;
+    --accent-foreground: 26 58 58;
+
+    --destructive: 239 68 68;
+    --destructive-foreground: 248 250 252;
+
+    --border: 230 230 230;
+    --input: 230 230 230;
+    --ring: 232 122 93;
+
+    --radius: 0.75rem;
+  }
+}
+
+@theme {
+  --color-background: rgb(var(--background));
+  --color-foreground: rgb(var(--foreground));
+
+  --color-card: rgb(var(--card));
+  --color-card-foreground: rgb(var(--card-foreground));
+
+  --color-popover: rgb(var(--popover));
+  --color-popover-foreground: rgb(var(--popover-foreground));
+
+  --color-primary: rgb(var(--primary));
+  --color-primary-foreground: rgb(var(--primary-foreground));
+
+  --color-secondary: rgb(var(--secondary));
+  --color-secondary-foreground: rgb(var(--secondary-foreground));
+
+  --color-muted: rgb(var(--muted));
+  --color-muted-foreground: rgb(var(--muted-foreground));
+
+  --color-accent: rgb(var(--accent));
+  --color-accent-foreground: rgb(var(--accent-foreground));
+
+  --color-destructive: rgb(var(--destructive));
+  --color-destructive-foreground: rgb(var(--destructive-foreground));
+
+  --color-border: rgb(var(--border));
+  --color-input: rgb(var(--input));
+  --color-ring: rgb(var(--ring));
+
+  --radius-radius: var(--radius);
+
+  /* Custom Fonts */
+  --font-lora: var(--font-lora);
+  --font-montserrat: var(--font-montserrat);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-lora), serif;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--primary));
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #da664b;
+}

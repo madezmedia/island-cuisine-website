@@ -1,0 +1,36 @@
+
+> island-cuisine-website@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/michaelshaw/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/michaelshaw/clawd/projects/island-cuisine-website/package-lock.json
+   * /Users/michaelshaw/clawd/package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+- Experiments (use with caution):
+  ✓ optimizeCss
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1525.6ms
+  Running TypeScript ...
+  Collecting page data using 9 workers ...
+  Generating static pages using 9 workers (0/6) ...
+  Generating static pages using 9 workers (1/6) 
+  Generating static pages using 9 workers (2/6) 
+  Generating static pages using 9 workers (4/6) 
+✓ Generating static pages using 9 workers (6/6) in 173.5ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+
